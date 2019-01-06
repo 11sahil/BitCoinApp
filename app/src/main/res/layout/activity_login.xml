@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <EditText
+            android:id="@+id/name_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColorLink="@android:color/holo_blue_light"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorLink="@android:color/holo_blue_light"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <Button
+            android:id="@+id/loginBTN_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            android:textColorLink="@android:color/holo_blue_light"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="213dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal" >
+        <Button
+            android:id="@+id/rgstrBTN_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Here"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="446dp"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
